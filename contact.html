@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Patryk Zalech">
+    <meta name="description" content="Snowy Ridge Resort is a cozy resort in the Swiss Alps that offers luxurious accommodations.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowy Ridge Resort | Contact</title>
+    <link rel="icon" href="images/snowy-mountain.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Snowy Ridge Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" alt="Panoramic view of a lush Swiss valley surrounded by mountains" width="1280" height="400">
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+        
+        <div>
+            <img src="images/swiss-sunset.jpg" alt="Sunset over the Swiss Alps with mountain silhouettes" width="600" height="400">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method *</legend>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                    <label for="contact-email">Email</label>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                    <label for="contact-phone">Phone</label>
+                </fieldset>
+
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright ©2023 - Snowy Ridge Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
